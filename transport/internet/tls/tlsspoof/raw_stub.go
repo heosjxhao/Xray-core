@@ -1,4 +1,4 @@
-//go:build !linux && !darwin && !freebsd && !(windows && (amd64 || 386))
+//go:build !android && !linux && !darwin && !freebsd && !(windows && (amd64 || 386))
 
 package tlsspoof
 
